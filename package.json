@@ -1,0 +1,16 @@
+{
+  "name": "melodex-socket-server",
+  "version": "1.0.0",
+  "description": "Melodex Socket.IO server for real-time interactions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.8.1"
+  }
+}
