@@ -16,9 +16,7 @@ const io = new SocketIOServer(httpServer, {
         origin:
             process.env.NODE_ENV === "production"
                 ? [
-                    "https://melodex.tech",
-                    "https://www.melodex.tech",
-                    "https://melodex-two.vercel.app/",
+                    "https://melodex-two.vercel.app",
                 ]
                 : "*",
         methods: ["GET", "POST"],
